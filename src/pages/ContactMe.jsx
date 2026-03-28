@@ -46,8 +46,7 @@ export default function ContactMe() {
                 <div style={{ paddingTop: '20px' }}>
                     <textarea name="message" rows="10" cols="50" value={form.message} onChange={handleOnChange}>Write something here</textarea>
                 </div>
-                <button style={{ width: '140px', height: '40px' }}>Contact Me</button>
-                <button onclick={handleSendEmail}>Go Back</button>
+                <button onclick={handleSendEmail} style={{ width: '140px', height: '40px' }}>Contact Me</button>
             </div>
         </div>
     )
