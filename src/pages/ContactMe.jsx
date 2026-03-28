@@ -3,16 +3,16 @@ import Recat, { useState } from "react";
 
 
 
-export default function ContactMe(){
+export default function ContactMe() {
     const [form, setForm] = useState({
-        name:'',
-        email:'',
-        subject:'',
-        message:''
+        name: '',
+        email: '',
+        subject: '',
+        message: ''
     })
 
     const handleOnChange = (e) => {
-        const {name, value} = e.target;
+        const { name, value } = e.target;
         setForm((prev) => ({
             ...prev,
             [name]: value,
@@ -31,7 +31,7 @@ export default function ContactMe(){
             }),
         });
         const res = await data.json();
-        console.log(res);       
+        console.log(res);
     }
 
 
@@ -39,14 +39,16 @@ export default function ContactMe(){
         <div>
             <h1>Contact Me</h1>
             <div>
-                <input name="name" type="text" value={form.name} onChange={handleOnChange}/>
-                <input name="email" type="email" value={form.email} onChange={handleOnChange}/>
+                <div style={{ display: 'flex', gap: '20px' }}>
+                    <input name="name" type="text" value={form.name} onChange={handleOnChange} />
+                    <input name="email" type="email" value={form.email} onChange={handleOnChange} />
+                </div>
+                <div style={{ paddingTop: '20px' }}>
+                    <textarea name="message" rows="10" cols="50" value={form.message} onChange={handleOnChange}>Write something here</textarea>
+                </div>
+                <button style={{ width: '140px', height: '40px' }}>Contact Me</button>
+                <button onclick={handleSendEmail}>Go Back</button>
             </div>
-            <div style={{ paddingTop: '20px' }}>
-                <textarea name="message" rows="10" cols="50" value={form.message} onChange={handleOnChange}>Write something here</textarea>
-            </div>
-            <button style={{ width: '140px', height: '40px' }}>Contact Me</button>
-            <button onclick={handleSendEmail}>Go Back</button>
         </div>
     )
 }
