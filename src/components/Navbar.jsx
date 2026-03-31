@@ -1,32 +1,29 @@
 import './Navbar.css'
-import { Link } from "react-router";
 
-// export default function Navbar(){
-//     return (
-//         <>
-//             <h1>Navbar</h1>
-//         </>
-//     )
-// }
+import { NavLink } from "react-router";
+
+
 
 const Navbar = ({ children }) => {
     return (
         <>
             <div className="container-navbar">
-                <div className="links">
-                    <p>
-                        <Link to="/home">Home</Link>
-                    </p>
-                    <p>
-                        <Link to="/aboutMe">About Me</Link>
-                    </p>
-                    <p>
-                        <Link to="/projects">Projects</Link>
-                    </p>
-                    <p>
-                        <Link to="/contactMe">Contact Me</Link>
-                    </p>
+
+                <div className="nav-title">
+                    MEMO'S_PORTFOLIO
                 </div>
+
+                <div className="links">
+                    <NavLink to="/home">Home</NavLink>
+                    <NavLink to="/aboutMe">About Me</NavLink>
+                    <NavLink to="/projects">Projects</NavLink>
+                    <NavLink to="/contactMe">Contact Me</NavLink>
+                </div>
+                
+                <div className="resume">
+                    <button className="resume-btn">Resume</button>
+                </div>
+
             </div>
             {children}
         </>
