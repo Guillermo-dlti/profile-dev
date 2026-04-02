@@ -1,14 +1,17 @@
 import { Link } from "react-router";
+import Navbar from "../components/Navbar";
 
 
 
-export default function Home(){
+export default function AboutMe() {
     return (
         <div>
-            <h1>About Me</h1>
-            <p>
-                <Link to="/">Go Back</Link>
-            </p>
+            <Navbar>
+                <h1>About Me</h1>
+                <p>
+                    <Link to="/">Go Back</Link>
+                </p>
+            </Navbar>
         </div>
     )
 }

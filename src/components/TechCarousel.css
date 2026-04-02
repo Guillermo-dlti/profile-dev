@@ -1,0 +1,89 @@
+
+
+
+.tech-section{
+    width: 100vw;
+    margin-top: 100px;
+    background-color: #071328;
+    padding: 90px 0;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+}
+
+.tech-container{
+    max-width: 95%;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+.tech-label{
+    margin: 0;
+    color: #bb9eff;
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+.tech-heading{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    color: #dee5ff;
+    font-size: 54px;
+    font-weight: 700;
+}
+
+.tech-carousel{
+    display: flex;
+    gap: 30px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    padding-bottom: 18px;
+}
+
+.tech-carousel::-webkit-scrollbar{
+    height: 6px;
+}
+
+.tech-carousel::-webkit-scrollbar-thumb{
+    background-color: #202a52;
+    border-radius: 999px;
+}
+
+.tech-card{
+    min-width: 220px;
+    height: 190px;
+    border-radius: 24px;
+    background-color: #101936;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+    flex-shrink: 0;
+    transition: 0.3s ease;
+    margin-bottom: 12px;
+}
+
+.tech-card:hover{
+    background-color: #162042;
+}
+
+.tech-icon{
+    font-size: 42px;
+    color: #aeb6d3;
+}
+
+.tech-card:hover .tech-icon{
+    color: #c8cff0;
+}
+
+.tech-title{
+    margin: 0;
+    color: #dee5ff;
+    font-size: 20px;
+    font-weight: 600;
+}

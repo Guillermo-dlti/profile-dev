@@ -1,5 +1,6 @@
 import { Link } from "react-router";
 import React, { useState } from "react";
+import Navbar from "../components/Navbar";
 
 
 
@@ -37,17 +38,21 @@ export default function ContactMe() {
 
     return (
         <div>
-            <h1>Contact Me</h1>
-            <div>
-                <div style={{ display: 'flex', gap: '20px' }}>
-                    <input name="name" type="text" value={form.name} onChange={handleOnChange} />
-                    <input name="email" type="email" value={form.email} onChange={handleOnChange} />
+            <Navbar>
+
+                <h1>Contact Me</h1>
+                <div>
+                    <div style={{ display: 'flex', gap: '20px' }}>
+                        <input name="name" type="text" value={form.name} onChange={handleOnChange} />
+                        <input name="email" type="email" value={form.email} onChange={handleOnChange} />
+                    </div>
+                    <div style={{ paddingTop: '20px' }}>
+                        <textarea name="message" rows="10" cols="50" value={form.message} onChange={handleOnChange}>Write something here</textarea>
+                    </div>
+                    <button onClick={handleSendEmail} style={{ width: '140px', height: '40px' }}>Contact Me</button>
                 </div>
-                <div style={{ paddingTop: '20px' }}>
-                    <textarea name="message" rows="10" cols="50" value={form.message} onChange={handleOnChange}>Write something here</textarea>
-                </div>
-                <button onClick={handleSendEmail} style={{ width: '140px', height: '40px' }}>Contact Me</button>
-            </div>
+                
+            </Navbar>
         </div>
     )
 }
