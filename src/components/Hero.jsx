@@ -40,7 +40,7 @@ export default function Hero() {
                             <div className="status-icon">{`</>`}</div>
                             <div>
                                 <p className="status-title">Guillermo De La Torre</p>
-                                <p className="status-subtitle">Software Developer</p>
+                                <p className="status-subtitle">Software Engineer</p>
                             </div>
                         </div>
                     </div>
