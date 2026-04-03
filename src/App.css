@@ -5,3 +5,7 @@ body{
     color: white;
     font-family: Space_Grotesk;
 }
+
+html, body {
+    overflow-x: hidden;
+}
