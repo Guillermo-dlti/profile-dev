@@ -172,7 +172,7 @@
     text-decoration: none;
 }
 
-.social-links button:hover{
+.social-links a:hover{
     background-color: #24305a;
 }
 
