@@ -1,7 +1,8 @@
 import Navbar from "../components/Navbar";
-import "./AboutMe.css"
+import InterestedCard from "../components/InterestedCard";
 import portraitImg from "../assets/images/about-portrait.jpg";
 import { FiBox, FiLayers, FiGrid, FiShare2 } from "react-icons/fi";
+import "./AboutMe.css"
 
 
 
@@ -109,8 +110,8 @@ export default function AboutMe() {
 
                 </section>
 
-                <section className="interested">
-                    <h1></h1>
+                <section className="aboutMe-interested">
+                    <InterestedCard />
                 </section>
             </Navbar>
         </div>
