@@ -42,7 +42,7 @@ export default function ContactMe() {
                 <section className="contactMe-container">
 
                     <div className="contactMe-top">
-                        <h1 className="main-text">Initiate Project</h1>
+                        <h1 className="contactMe-main-text">Initiate Project</h1>
                         <p className="description">
                             Ready to transform complex requirments into
                             elegant digital architecture? Let's build
