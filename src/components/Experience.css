@@ -1,0 +1,80 @@
+.experience-section{
+    margin-top: 140px;
+    padding: 140px 0px;
+    display: flex;
+    justify-content: center;
+    background-color: #071328;
+}
+
+.experience-container{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.experience-left{
+    flex: 1;
+}
+
+.experience-subtitle{
+    color: #b69cff;
+    letter-spacing: 3px;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.experience-title{
+    font-size: 64px;
+    color: #dee5ff;
+    line-height: 1.05;
+    margin: 0;
+}
+
+.experience-right{
+    flex: 1.5;
+    display: flex;
+    flex-direction: column;
+}
+
+.experience-item{
+    margin-bottom: 20px;
+}
+
+.experience-item-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.experience-item-header h3{
+    color: #dee5ff;
+    font-size: 28px;
+    margin: 0;
+}
+
+.experience-item-header span{
+    color: #8f97b4;
+    font-size: 16px;
+}
+
+.experience-company{
+    color: #b69cff;
+    margin-top: 6px;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.experience-description{
+    color: #8f97b4;
+    font-size: 18px;
+    line-height: 1.5;
+    max-width: 600px;
+    margin-bottom: -10px;
+}
+
+.experience-divider{
+    height: 1px;
+    background-color: #1c254a;
+    margin: 30px 0;
+}
