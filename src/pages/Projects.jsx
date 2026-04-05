@@ -1,5 +1,6 @@
 import { Link } from "react-router";
 import Navbar from "../components/Navbar";
+import ProjectsSection from "../components/ProjectsSection";
 
 
 
@@ -7,10 +8,11 @@ export default function Projects() {
     return (
         <div>
             <Navbar>
-                <h1>Projects</h1>
+                <ProjectsSection />
+                {/* <h1>Projects</h1>
                 <p>
                     <Link to="/">Go Back</Link>
-                </p>
+                </p> */}
             </Navbar>
         </div>
     )

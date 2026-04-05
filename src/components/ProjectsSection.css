@@ -1,0 +1,257 @@
+.projects-section{
+    padding: 70px 70px;
+}
+
+.projects-container{
+    width: 100%;
+}
+
+.projects-header{
+    max-width: 720px;
+    margin-bottom: 80px;
+}
+
+.projects-title{
+    margin: 0;
+    font-size: 72px;
+    line-height: 0.95;
+    font-weight: 500;
+    color: #dee5ff;
+    letter-spacing: -1px;
+}
+
+.projects-accent{
+    background: linear-gradient(90deg, #d6c7ff 0%, #8f63ff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.projects-description{
+    margin: 18px 0 0 0;
+    max-width: 680px;
+    color: #8e97b5;
+    font-size: 20px;
+    line-height: 1.7;
+}
+
+.projects-row{
+    display: flex;
+    gap: 18px;
+    margin-bottom: 18px;
+    align-items: stretch;
+}
+
+.project-card{
+    background: #101936;
+    border: 1px solid rgba(255,255,255,0.03);
+    border-radius: 16px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 220px;
+}
+
+.project-card.large{
+    flex: 1.45;
+}
+
+.project-card.small{
+    flex: 0.75;
+}
+
+.project-card.medium{
+    flex: 1;
+}
+
+.project-card.imageOnly{
+    flex: 1;
+    min-height: 260px;
+}
+
+.project-card.wideOutlined{
+    flex: 1;
+    min-height: 150px;
+    border: 1px solid rgba(182, 156, 255, 0.55);
+    background: #0f1834;
+}
+
+.project-card.tall{
+    min-height: 520px;
+}
+
+.project-image-wrapper{
+    width: 100%;
+    overflow: hidden;
+    background: radial-gradient(circle at center, rgba(77, 135, 255, 0.18), #0f1834 75%);
+}
+
+.project-image-wrapper.large{
+    height: 360px;
+}
+
+.project-image-wrapper.small{
+    height: 190px;
+}
+
+.project-image-wrapper.imageOnly{
+    height: 100%;
+    min-height: 260px;
+}
+
+.project-image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    opacity: 0.8;
+}
+
+.project-card-content{
+    padding: 22px 22px 18px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.project-mini-icon{
+    width: 34px;
+    height: 34px;
+    border-radius: 10px;
+    background: #161f41;
+    color: #b69cff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    margin-bottom: 18px;
+}
+
+.project-title-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 14px;
+}
+
+.project-card-title{
+    margin: 0;
+    color: #dee5ff;
+    font-size: 34px;
+    line-height: 1.05;
+    font-weight: 600;
+    letter-spacing: -1px;
+}
+
+.project-card.small .project-card-title,
+.project-card.medium .project-card-title,
+.project-card.wideOutlined .project-card-title{
+    font-size: 24px;
+}
+
+.project-title-actions{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #a8b2d3;
+    font-size: 18px;
+    flex-shrink: 0;
+}
+
+.project-card-description{
+    margin: 12px 0 0 0;
+    color: #8e97b5;
+    font-size: 17px;
+    line-height: 1.5;
+    max-width: 92%;
+}
+
+.project-card.small .project-card-description,
+.project-card.medium .project-card-description,
+.project-card.wideOutlined .project-card-description{
+    font-size: 15px;
+}
+
+.project-tags{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 18px;
+}
+
+.project-tag{
+    padding: 6px 10px;
+    border-radius: 999px;
+    background: rgba(182, 156, 255, 0.18);
+    color: #c7b8ff;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.6px;
+}
+
+.project-action-btn{
+    margin-top: auto;
+    align-self: flex-start;
+    border: none;
+    background: #202a52;
+    color: #dee5ff;
+    padding: 10px 16px;
+    border-radius: 999px;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.25s ease;
+}
+
+.project-action-btn:hover{
+    background: #2b3767;
+}
+
+.project-card.imageOnly .project-card-content{
+    display: none;
+}
+
+.project-card:hover{
+    transform: translateY(-3px);
+    transition: 0.25s ease;
+}
+
+@media (max-width: 1100px){
+    .projects-row{
+        flex-direction: column;
+    }
+
+    .project-card.large,
+    .project-card.small,
+    .project-card.medium,
+    .project-card.imageOnly,
+    .project-card.wideOutlined{
+        flex: 1;
+    }
+
+    .projects-title{
+        font-size: 58px;
+    }
+}
+
+@media (max-width: 768px){
+    .projects-section{
+        padding: 100px 24px;
+    }
+
+    .projects-title{
+        font-size: 46px;
+    }
+
+    .projects-description{
+        font-size: 17px;
+    }
+
+    .project-image-wrapper.large{
+        height: 240px;
+    }
+
+    .project-card-content{
+        padding: 18px;
+    }
+}
