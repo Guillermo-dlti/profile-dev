@@ -23,8 +23,10 @@ export default function Experience() {
                         </div>
                         <p className="experience-company">Aumovio SE</p>
                         <p className="experience-description">
-                            Directed a team of engineers in rebuilding core microservices architecture,
-                            reducing operational costs and improving system uptime.
+                            As a Systems Developer Intern, I contribute to the development and maintenance 
+                            of internal business applications. I implement software updates, troubleshoot issues, 
+                            and assist in building new functionalities. I work with databases for data management 
+                            and queries, and support server-side processes to ensure system reliability and performance. 
                         </p>
                     </div>
 
@@ -32,19 +34,23 @@ export default function Experience() {
 
                     <div className="experience-item">
                         <div className="experience-item-header">
-                            <h3>NivosTech Co-Founder</h3>
+                            <h3>Co-Founder & Developer</h3>
                             <span>2026 — Present</span>
                         </div>
-                        <p className="experience-company">NIVOSTECH</p>
+                        <p className="experience-company">NivosTech</p>
                         <p className="experience-description">
-                            Led development of scalable web applications and internal tools,
-                            improving developer productivity and performance.
+                            Co-founded a small web development studio focused on building modern, 
+                            user-friendly websites for local businesses. <br /><br />
+
+                            Collaborated with a team of three to design and develop responsive web solutions
+                            and deliver digital experiences that improve 
+                            online visibility.
                         </p>
                     </div>
 
-                    <div className="experience-divider"></div>
+                    {/* <div className="experience-divider"></div> */}
 
-                    <div className="experience-item">
+                    {/* <div className="experience-item">
                         <div className="experience-item-header">
                             <h3>Software Engineer</h3>
                             <span>2016 — 2018</span>
@@ -53,7 +59,7 @@ export default function Experience() {
                         <p className="experience-description">
                             Built UI components and internal systems used across multiple applications.
                         </p>
-                    </div>
+                    </div> */}
 
                 </div>
             </div>
