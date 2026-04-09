@@ -16,7 +16,7 @@
     justify-content: space-between;
     align-items: center;
     gap: 40px;
-    margin-top: 130px;
+    margin-top: 20px;
 }
 
 .hero-left{
@@ -41,10 +41,18 @@
     margin: 0;
     font-size: 82px;
     font-weight: 800;
-    line-height: 0.98;
+    line-height: 1.1;
     color: #dee5ff;
     text-transform: uppercase;
     letter-spacing: -3px;
+}
+
+.hero-intro{
+    margin: 0 0 12px 0;
+    color: #bb9eff;
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: 2px;
 }
 
 .secondary-text {
@@ -55,8 +63,8 @@
 .hero-description{
     margin-top: 35px;
     max-width: 630px;
-    font-size: 25px;
-    line-height: 1.4;
+    font-size: 23px;
+    line-height: 1.5;
     color: #a5acc6;
 }
 
@@ -104,7 +112,7 @@
     border-radius: 28px;
     background: radial-gradient(circle at center, rgba(104, 180, 255, 0.22), rgba(5, 14, 31, 0.95) 70%);
     overflow: visible;
-    transform: translateY(20px)
+    transform: translateY(10px)
 }
 
 .hero-glow{

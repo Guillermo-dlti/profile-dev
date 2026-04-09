@@ -11,16 +11,19 @@ export default function Hero() {
 
                 <div className="hero-left">
 
+                    <p className="hero-intro">Hey, I'm</p>
+
                     <h1 className="main-text">
-                        Crafting
-                        <span className="secondary-text"> Digital </span><br />
-                        Infrastructure
+                        Guillermo
+                        <span className="secondary-text"> De La </span><br />
+                        Torre Isunza
                     </h1>
 
                     <p className="hero-description">
-                        Full-stack engineer specializing in high-velocity systems
-                        and architectural precision. Building the future of the web,
-                        one layer at a time.
+                        I’m a Software Engineer student with a constant desire to grow. 
+                        I enjoy building backend systems and working with databases, 
+                        while continuously learning and pushing myself to improve 
+                        as a developer.
                     </p>
 
                     <div className="btn-container">
