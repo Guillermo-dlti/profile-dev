@@ -23,7 +23,7 @@ export default function AboutMe() {
                             </h1>
 
                             <p className="about-description">
-                                I’m a Computer Engineering student focused on backend 
+                                I’m a Computer Engineer student focused on backend 
                                 development and databases. I consider myself a dedicated 
                                 person who is always looking to improve. Whether it’s learning 
                                 new technologies, refining my problem-solving skills, or building 
