@@ -14,19 +14,28 @@ export default function AboutMe() {
                     <div className="aboutMe-top">
 
                         <div className="top-left">
-                            <p className="top-label">THE ARCHITECT</p>
+                            <p className="top-label">THIS IS ME</p>
 
                             <h1 className="about-title">
-                                Building the skeletal <br />
-                                <span className="about-title-accent">frameworks of</span> <br />
-                                <span className="about-title-accent">tomorrow.</span>
+                                Building reliable <br />
+                                <span className="about-title-accent">systems and</span> <br />
+                                <span className="about-title-accent">growing every day.</span>
                             </h1>
 
                             <p className="about-description">
-                                I am a software engineer student focused on high-performace
-                                digital infrastructure. My approach treats code as structural
-                                engineering-where every line serves as weight-bearing
-                                pillar for scalable ecosystems.
+                                I’m a Computer Engineering student focused on backend 
+                                development and databases. I consider myself a dedicated 
+                                person who is always looking to improve. Whether it’s learning 
+                                new technologies, refining my problem-solving skills, or building 
+                                more efficient systems.
+                                <br /><br />
+                                I enjoy working on the logic behind applications, understanding 
+                                how things work under the hood, and creating solutions that are both 
+                                functional and scalable. 
+                                <br /><br />
+                                Outside of tech, I’m passionate about sports. They’ve shaped my 
+                                discipline, consistency, and mindset.
+
                             </p>
                         </div>
 
@@ -54,24 +63,24 @@ export default function AboutMe() {
                                 <p className="philosophy-label">PHILOSOPHY</p>
 
                                 <h2 className="philosophy-title">
-                                    Structural Integrity <br />
-                                    in Every Byte.
+                                    Building systems<br />
+                                    that actually work.
                                 </h2>
 
                                 <p className="philosophy-description">
-                                    Digital products often focus on the surface level—the aesthetics.
-                                    I believe the true beauty of software lies in its latent architecture.
-                                    To build for the future is to build systems that are resilient,
-                                    modular, and invisible.
+                                    I believe good software is not just about how it looks, 
+                                    but how it performs and scales over time. While many focus 
+                                    on the frontend, I’m more interested in what happens behind 
+                                    the scenes, the structure, and the data.
                                 </p>
                                 <div className="philosophy-points">
                                     <div className="philosophy-point">
                                         <div className="point-icon">↑</div>
                                         <div className="point-text">
-                                            <h3>Modular Composability</h3>
+                                            <h3>Clean & Scalable Logic</h3>
                                             <p>
-                                                Creating atomic units of code that can be reconfigured
-                                                without friction.
+                                                Writing code that is structured, easy to understand, 
+                                                and built to grow without breaking.
                                             </p>
                                         </div>
                                     </div>
@@ -79,10 +88,10 @@ export default function AboutMe() {
                                     <div className="philosophy-point">
                                         <div className="point-icon">◔</div>
                                         <div className="point-text">
-                                            <h3>High-Velocity Latency</h3>
+                                            <h3>Performance Matters</h3>
                                             <p>
-                                                Optimization isn&apos;t an afterthought; it is the foundation
-                                                of the user experience.
+                                                Focusing on efficiency and optimization 
+                                                from the start, not as an afterthought.
                                             </p>
                                         </div>
                                     </div>
