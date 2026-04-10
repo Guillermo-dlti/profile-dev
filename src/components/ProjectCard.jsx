@@ -8,6 +8,7 @@ export default function ProjectCard({
     variant = "medium",
     showAction = false,
     actionText = "View Repository",
+    repoUrl = "#",
     icon = null,
 }) {
     if (variant === "split") {
@@ -82,9 +83,15 @@ export default function ProjectCard({
                 )}
 
                 {showAction && (
-                    <button className="project-action-btn">
+                    <a
+                        href={repoUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="project-action-btn"
+                        style={{ textDecoration: 'none', display: 'inline-block' }}
+                    >
                         {actionText} <span>→</span>
-                    </button>
+                    </a>
                 )}
             </div>
         </article>

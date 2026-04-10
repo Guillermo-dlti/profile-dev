@@ -76,20 +76,20 @@
 
 .project-card.wideOutlined{
     flex: 1;
-    min-height: 150px;
+    min-height: 250px;
     border: 1px solid rgba(182, 156, 255, 0.55);
     background: #0f1834;
 }
 
 .project-card.tall{
-    min-height: 520px;
+    min-height: 680px;
 }
 
 .project-card.split{
     flex: 1.8;
     display: flex;
     flex-direction: row;
-    min-height: 320px;
+    min-height: 380px;
 }
 
 .project-image-wrapper{
@@ -204,7 +204,7 @@
 .project-card.small .project-card-description,
 .project-card.medium .project-card-description,
 .project-card.wideOutlined .project-card-description{
-    font-size: 15px;
+    font-size: 16px;
 }
 
 .project-tags{
