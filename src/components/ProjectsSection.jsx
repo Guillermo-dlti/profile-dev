@@ -11,12 +11,13 @@ export default function ProjectsSection() {
             <div className="projects-container">
                 <div className="projects-header">
                     <h2 className="projects-title">
-                        Digital <span className="projects-accent">Ecosystem</span>
+                        My <span className="projects-accent">Projects</span>
                     </h2>
 
                     <p className="projects-description">
-                        A curated catalog of architectural software solutions, ranging from
-                        low-level systems programming to distributed cloud infrastructures.
+                        A collection of projects where I’ve applied backend 
+                        development, worked with databases, and explored new 
+                        technologies while improving my skills.
                     </p>
                 </div>
 
@@ -49,19 +50,13 @@ export default function ProjectsSection() {
                     />
 
                     <ProjectCard
-                        variant="medium"
+                        variant="split"
                         title="Vanguard OS"
                         description="A microkernel operating system written in Zig, exploring memory safety without a garbage collector."
                         tags={["ZIG", "X86_64", "KERNEL"]}
-                        showAction={true}
-                        actionText="Documentation"
-                    />
-
-                    <ProjectCard
-                        variant="imageOnly"
-                        title="Infrastructure Stream"
-                        description=""
                         image={projectCode}
+                        showAction={true}
+                        actionText="View Repository"
                     />
                 </div>
 

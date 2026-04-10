@@ -10,6 +10,44 @@ export default function ProjectCard({
     actionText = "View Repository",
     icon = null,
 }) {
+    if (variant === "split") {
+        return (
+            <article className={`project-card ${variant}`}>
+                <div className="project-split-content">
+                    {icon && <div className="project-mini-icon">{icon}</div>}
+
+                    <div className="project-title-row">
+                        <h3 className="project-card-title">{title}</h3>
+                    </div>
+
+                    <p className="project-card-description">{description}</p>
+
+                    {tags.length > 0 && (
+                        <div className="project-tags">
+                            {tags.map((tag) => (
+                                <span key={tag} className="project-tag">
+                                    {tag}
+                                </span>
+                            ))}
+                        </div>
+                    )}
+
+                    {showAction && (
+                        <button className="project-action-btn">
+                            {actionText} <span>→</span>
+                        </button>
+                    )}
+                </div>
+
+                {image && (
+                    <div className="project-split-image-wrapper">
+                        <img src={image} alt={title} className="project-image" />
+                    </div>
+                )}
+            </article>
+        );
+    }
+
     return (
         <article className={`project-card ${variant}`}>
             {image && (
