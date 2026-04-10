@@ -9,10 +9,7 @@ export default function Projects() {
         <div>
             <Navbar>
                 <ProjectsSection />
-                {/* <h1>Projects</h1>
-                <p>
-                    <Link to="/">Go Back</Link>
-                </p> */}
+                
             </Navbar>
         </div>
     )
