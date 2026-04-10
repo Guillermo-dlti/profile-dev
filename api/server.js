@@ -13,9 +13,14 @@ const handler = async (req, res) => {
     const data = await resend.emails.send({
       from: 'Acme <onboarding@resend.dev>',
       to: 'memo2507.delatorre@gmail.com',
-      subject: 'hello world',
-      html: `<strong>it works!</strong>
-      <strong>${message}</strong>`,
+      subject: `New message from ${name}`,
+      html: `
+        <h2>New Contact Form Submission</h2>
+        <p><strong>Name:</strong> ${name}</p>
+        <p><strong>Email:</strong> ${email}</p>
+        <p><strong>Message:</strong></p>
+        <p>${message}</p>
+      `,
     });
 
     return res.status(200).json({ data });
