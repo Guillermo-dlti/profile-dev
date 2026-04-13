@@ -65,7 +65,6 @@ export default function ProjectsSection() {
                         tags={["REACT", "TAILWIND", "REST API", "UX/UI"]}
                         image={pokemon1}
                         showAction={true}
-                        actionText="View Repository"
                         repoUrl="https://github.com/Guillermo-dlti/project-console-retro-game"
                     />
                 </div>
